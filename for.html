@@ -14,12 +14,15 @@
         contadorpares=0
         contadorimpares=0
         promediopares=0
+        
         for (let f = 1; f <= 10; f++) {
             if (f%2==0) {
                 document.write("Estos son numeros pares "+f + "<br>");
                 document.write("<br>")
                 sumatoriapares=sumatoriapares+f
                 contadorpares=contadorpares+1
+                
+
                 
             }
             else{
@@ -28,6 +31,8 @@
                 sumatoriaimpares=sumatoriaimpares+f
                 contadorimpares=contadorimpares+1
             }
+            
+        
         
         }
         promediopares=sumatoriapares/contadorpares
@@ -43,6 +48,7 @@
         document.write("el contador de impares es de:"+contadorimpares+"<br>")
         
         document.write("el porcentaje de impares es de: "+promedioimpares+"<br>");
+        
 
     </script>
 </body>
